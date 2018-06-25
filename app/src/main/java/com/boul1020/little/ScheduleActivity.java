@@ -108,6 +108,7 @@ public class ScheduleActivity extends AppCompatActivity {
             int year = Integer.parseInt(filename.substring(0, 4));
             int month = Integer.parseInt(filename.substring(4, 6));
             int day = Integer.parseInt(filename.substring(6, 8));
+            
 
             if (year != calendarYear || month != calendarMonth) continue;
 
